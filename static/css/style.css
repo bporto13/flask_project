@@ -1,0 +1,56 @@
+#home{
+background-color: rgb(168, 218, 220);
+
+}
+
+#stats{
+background-color: rgb(69, 123, 157);
+font-family: 'Alfa Slab One';
+font-size: 22px;
+text-align: center;
+color: rgb(241, 250, 238);
+}
+
+fieldset{
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 10%;
+margin-right: 10%;
+font-size: 30px;
+
+}
+
+p{
+    font-family: 'Alfa Slab One';font-size: 22px;
+    text-align: center;
+   
+}
+
+.title{
+font-family: 'Alfa Slab One';
+text-align: center;
+font-size: 100px;
+}
+
+#submit{
+    align: center;
+}
+
+.info{
+font-family: 'Lato';
+
+}
+
+#info{
+padding: 4px;
+float: left;
+border-style: dashed;
+border-color: rgb(29, 53, 87);
+
+}
+
+#image{
+float: right;
+border-style: dashed;
+border-color: rgb(29, 53, 87);
+}

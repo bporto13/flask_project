@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Player Card</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css?q={{time}}">
+        <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+    </head>
+    <body id="stats">
+        <h1 class="info">Your player is:<br></h1>
+        <div class"player">
+        <h1 class="title">{{player_info.upper()}} <br></h1>
+        </div>
+       <div id="wrapper">
+        <div class="info" id="info">
+        <h1 >A(n)<br></h1>
+        <h1>{{player_status.upper()}} player.</h1>
+        <h2>TEAM: The {{player_team}}</h2>
+        <h2>JERSEY NUMBER: {{player_jersey}}</h2>
+        <h2>BIRTHPLACE: {{player_born}}</h2>
+        <h2>POSITION: {{player_position}}</h2>
+        </div>
+        <div id="image">
+           <img src={{player_gif}}/>
+
+        </div>
+       </div>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>MLB Players</title>
+<link rel="stylesheet" type="text/css" href="/static/css/style.css?q={{time}}">
+<link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+    </head>
+    <body id="home">
+        <h1 class="title">Make your own baseball card!</h1>
+        <p>With baseball starting back up soon, I know that I need a refresher on all of the players!</p>
+        <p>Choose an active or retired player, and get some stats.</p>
+
+        <form method="post" action="/results">
+            <fieldset>
+            <input type="text" name="player" placeholder="Player's last name"/>
+            </fieldset>
+            <fieldset>
+            <input type="text" name="status" placeholder="active or retired"/>
+            </fieldset>
+            <fieldset id = "box1">
+                <legend>Stat #1:</legend>
+                <input type="radio" name="box1" value="1">
+                <label for="team">Team</label>
+                <input type="radio" name="box1" value="2">
+                <label for="number">Jersey Number</label>
+                <input type="radio" name="box1" value="3">
+                <label for="born">Birthplace</label>
+                <input type="radio" name="box1" value="4">
+                <label for="position">Position</label>
+            </fieldset>
+             <fieldset id = "box2">
+                <legend>Stat #2:</legend>
+                <input type="radio" name="box2" value="1">
+                <label for="team">Team</label>
+                <input type="radio" name="box2" value="2">
+                <label for="number">Jersey Number</label>
+                <input type="radio" name="box2" value="3">
+                <label for="born">Birthplace</label>
+                <input type="radio" name="box2" value="4">
+                <label for="position">Position</label>
+            </fieldset>
+             <fieldset id = "box3">
+                <legend>Stat #3:</legend>
+                <input type="radio" name="box3" value="1">
+                <label for="team">Team</label>
+                <input type="radio" name="box3" value="2">
+                <label for="number">Jersey Number</label>
+                <input type="radio" name="box3" value="3">
+                <label for="born">Birthplace</label>
+                <input type="radio" name="box3" value="4">
+                <label for="position">Position</label>
+            </fieldset>
+            <div style="text-align:center">
+            <input  type="submit" value="Submit"/>
+            </div>
+        </form>
+    </body>
+</html>
